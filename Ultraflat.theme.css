@@ -1,4 +1,3 @@
 //META{"name":"Ultraflat","description":":Artemis:","author":"Artemis","version":"0.0.0"}*//
 
-@import url("https://raw.githubusercontent.com/Art-em1s/DiscordTheme/master/discordTheme.css");
-
+@import url("https://cdn.jsdelivr.net/gh/Art-em1s/DiscordTheme/discordTheme.css"); //Imports from github
