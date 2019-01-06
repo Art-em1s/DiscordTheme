@@ -335,7 +335,7 @@ li.speaking{
     padding:10px
 }
 .theme-dark .dividerEnabled-2TTlcf,.wordmark-2iDDfm,[name=Gift]{
-    display:none
+    display:none!important
 }
 .theme-dark .content-249Pr9{
     color:#fff
