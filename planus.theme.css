@@ -1,18 +1,18 @@
 //META{"name":"Planus", "description":"Ultraflat's Remake", "author":"Artemis", "version":"0.0.0"}*//
 
 :root {
-    --version:"Planus v1.0.0";
-    --background: #2B2E39;
-    --background-accent: #383C4A;
-    --dark-grey: #303234;
-    --text: #52D5E7;
-    --text2: #3F85FF;
-    --text-light: rgba(255,255,255,1);
-    --code: #87EA73;
+  --version:"Planus v1.0.0";
+  --background: #2B2E39;
+  --background-accent: #383C4A;
+  --dark-grey: #303234;
+  --text: #52D5E7;
+  --text2: #3F85FF;
+  --text-light: rgba(255,255,255,1);
+  --code: #87EA73;
 }
-    
+  
 .container-PNkimc {
-    background-color: var(--background);}
+  background-color: var(--background);}
 
 .container-2Thooq .accountDetails-3k9g4n .discriminator {
   color: var(--text-light) !important;
@@ -59,7 +59,7 @@ form .channelTextArea-rNsIhG {
   padding-right: 20px;
   padding-top: 0px;
   border-radius: 5px 5px 0 0;
-  margin-left: 45%;
+  margin-left: 43%;
   color: var(--text-light);
   box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.1);
   opacity: .95;
@@ -90,7 +90,7 @@ form .channelTextArea-rNsIhG {
   transform: none;
   transition: all 100ms ease; }
   
-` /*text area*/
+   /*text area*/
  .message-1PNnaP .channelTextArea-1LDbYG {
   margin-top: 0; }
 
@@ -125,7 +125,6 @@ form .channelTextArea-rNsIhG {
   min-height: 18px;
   transition: all 200ms ease;
   padding-right: 10px;
-  opacity: 0.5;
   background: var(--background);
   margin: 0;
   color: rgba(255, 255, 255, 0.7); }
@@ -265,11 +264,14 @@ form .channelTextArea-rNsIhG {
   
 /*font colouring*/
 .theme-dark .markup-2BOw-j {
-color: var(--text);}
+  color: var(--text);
+  font-size: 0.9375rem;
+  line-height: 1.3;
+}
 
 /*fix margin on last msg*/
 .containerCompactBounded-cYR5cW:last-child{
-    margin-bottom:0.5%
+  margin-bottom:0.5%
 }
 
 /*fix box shadow from search*/
@@ -278,10 +280,40 @@ color: var(--text);}
 }
 
 .theme-dark .searchResult-3pzFAB:before,.theme-dark .searchResult-3pzFAB:after {
-    background-image: none!important;
+  background-image: none!important;
 }
 
 /*pinned msgs fix*/
 .theme-dark .messageGroupWrapper-o-Zw7G{
+  background-color: var(--background-accent);
+}
+
+/*big emojis*/
+.emoji,.isCompact-1hsne1 .emoji.jumboable{
+  height:3.45em;
+  width:3.45em
+}
+
+/*fix edits*/
+.message-1PNnaP .channelTextArea-1LDbYG .inner-zqa7da .textArea-2Spzkt{
     background-color: var(--background-accent);
 }
+
+/*scroll bars*/
+.scroller-2FKFPG::-webkit-scrollbar {
+    width: 5px !important;
+    height: 10px !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: var(--background-accent) !important;
+    border: 0;
+    width: 5px !important;
+    height: 10px !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: var(--background) !important;
+    border: 0;
+}
+
