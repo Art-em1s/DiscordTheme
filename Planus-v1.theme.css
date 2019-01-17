@@ -1,5 +1,3 @@
-//META{"name":"Planus", "description":"Ultraflat's Remake", "author":"Artemis", "version":"0.0.0"}*//
-
 :root {
   --version:"Planus v1.0.0";
   --background: #2B2E39;
@@ -316,4 +314,3 @@ form .channelTextArea-rNsIhG {
     background-color: var(--background) !important;
     border: 0;
 }
-
