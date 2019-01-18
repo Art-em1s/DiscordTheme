@@ -60,7 +60,7 @@ form .channelTextArea-rNsIhG {
   margin-left: 43%;
   color: var(--text-light);
   box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.1);
-  opacity: .95;
+  opacity: .5;
   transition: all 200ms ease;
   overflow-y: visible !important;
   z-index: 5; }
@@ -287,7 +287,7 @@ form .channelTextArea-rNsIhG {
 }
 
 /*big emojis*/
-.emoji,.isCompact-1hsne1 .emoji.jumboable{
+.emoji,.isCompact-1hsne1 .emoji.jumboable,.emoji.jumboable{
   height:3.45em;
   width:3.45em
 }
