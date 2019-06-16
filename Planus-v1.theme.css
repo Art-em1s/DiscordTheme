@@ -314,3 +314,8 @@ form .channelTextArea-rNsIhG {
     background-color: var(--background) !important;
     border: 0;
 }
+
+/*Hide blocked users*/
+.da-messageGroupBlocked{
+    display: none;
+}
