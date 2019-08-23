@@ -319,3 +319,8 @@ form .channelTextArea-rNsIhG {
 .da-messageGroupBlocked{
     display: none;
 }
+
+/*hide streaming badge*/
+.icons-3q-_6z {
+    display: none !important;
+}
