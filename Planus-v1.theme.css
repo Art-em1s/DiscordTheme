@@ -42,7 +42,7 @@ form .channelTextArea-rNsIhG {
   padding: 0;
   border: 0 !important;}
   
-.chat-3bRxxu form .typing-2GQL18 {
+.chat-3bRxxu form .typing-2GQL18  {
   background: #333333 !important;
   bottom: 100%;
   float: right;
@@ -63,7 +63,17 @@ form .channelTextArea-rNsIhG {
   opacity: .5;
   transition: all 200ms ease;
   overflow-y: visible !important;
-  z-index: 5; }
+  z-index: 5; 
+  display:table;  
+}
+
+.text-1y-e8- da-text {
+  width: 100%;
+}
+  
+.base-gE7OpD .ellipsis-19qdx6{
+    display: none;
+}  
   
 .chat-3bRxxu form .typing-2GQL18:hover {
   opacity: 1; }
@@ -318,4 +328,13 @@ form .channelTextArea-rNsIhG {
 /*Hide blocked users*/
 .da-messageGroupBlocked{
     display: none;
+}
+
+.base-gE7OpD .text-1y-e8- {
+    display: block;
+    min-width: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 4px;
 }
