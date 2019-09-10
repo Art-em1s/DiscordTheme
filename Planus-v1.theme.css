@@ -332,3 +332,12 @@ button[aria-label="Send a gift"]{
     background-color: var(--background) !important;
     border: 0;
 }
+
+/*Fix ava area*/
+.panels-j1Uci_ {
+    height: 70px;
+}
+
+.container-3baos1, .container-3baos1 .avatar-SmRMf2{
+    padding-top:7px;
+}
