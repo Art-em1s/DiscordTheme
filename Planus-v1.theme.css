@@ -42,7 +42,32 @@ form .channelTextArea-rNsIhG {
   padding: 0;
   border: 0 !important;}
   
- 
+.chat-3bRxxu form .typing-2GQL18 {
+  background: #333333 !important;
+  bottom: 100%;
+  float: right;
+  padding-left: 20px;
+  z-index: 0;
+  animation: opacity 300ms ease;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  -ms-transform: scale(1);
+  transform: scale(1);
+  width: auto;
+  padding-right: 20px;
+  padding-top: 0px;
+  border-radius: 5px 5px 0 0;
+  margin-left: 43%;
+  color: var(--text-light);
+  box-shadow: 0 -3px 20px rgba(0, 0, 0, 0.1);
+  opacity: .5;
+  transition: all 200ms ease;
+  overflow-y: visible !important;
+  z-index: 5; }
+  
+.chat-3bRxxu form .typing-2GQL18:hover {
+  opacity: 1; }
+  
 .animator-US5i9g .action-1lSjCi.create-3jownz:hover .actionButton-2PeQbJ,
 .form .btn-primary:hover {
   filter: brightness(93%) contrast(110%); }
@@ -294,5 +319,3 @@ form .channelTextArea-rNsIhG {
 .da-messageGroupBlocked{
     display: none;
 }
-
-/*hide streaming badge*/
