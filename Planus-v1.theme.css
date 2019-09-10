@@ -324,17 +324,3 @@ form .channelTextArea-rNsIhG {
     background-color: var(--background) !important;
     border: 0;
 }
-
-/*Hide blocked users*/
-.da-messageGroupBlocked{
-    display: none;
-}
-
-.base-gE7OpD .text-1y-e8- {
-    display: block;
-    min-width: 0;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin-left: 4px;
-}
