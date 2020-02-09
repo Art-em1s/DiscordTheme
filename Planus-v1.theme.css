@@ -1,19 +1,21 @@
 :root {
   --version:"Planus v1.0.0";
+  --background-secondary: #2B2E39;
+  --background-primary: #2B2E39;
   --background: #2B2E39;
   --background-accent: #383C4A;
-  --dark-grey: #303234;
+  --background-tertiary: #252525;
   --text: #52D5E7;
   --text2: #3F85FF;
   --text-light: rgba(255,255,255,1);
   --code: #87EA73;
 }
   
-.container-PNkimc, .scroller-2FKFPG, .privateChannels-1nO12o,.theme-dark .container-3gCOGc,.container-1r6BKw.themed-ANHk51 {
+.container-PNkimc, .privateChannels-1nO12o,.theme-dark .container-3gCOGc,.container-1r6BKw.themed-ANHk51,.messages-3amgkR,.scroller-1JbKMe,.friendsTable-133bsv .friendsTableBody-1ZhKif{
   background-color: var(--background) !important;}
 
-.guilds-1SWlCJ{
-  background-color: var( --dark-grey) !important;}
+.wrapper-1Rf91z,.panels-j1Uci_{
+  background-color: var(--background-tertiary) !important;}
 }
 
 .container-2Thooq .accountDetails-3k9g4n .discriminator {
@@ -23,7 +25,7 @@
 .container-2Thooq {
   border-right: 2px solid var(--background-accent);
   height: 70px;
-  margin-bottom: 0px; 
+    margin-bottom: 0px;     
   box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;}
 
 .container-2Thooq .avatar-small {
@@ -47,11 +49,11 @@ form .channelTextArea-rNsIhG {
   border: 0 !important;}
   
 .chat-3bRxxu form .typing-2GQL18  {
-  background: #333333 !important;
+  background: var(--background-tertiary) !important;
   bottom: 100%;
   float: right;
+  padding-top: 2px;
   padding-left: 20px;
-  z-index: 0;
   animation: opacity 300ms ease;
   -ms-transform-origin: bottom left;
   transform-origin: bottom left;
@@ -334,10 +336,6 @@ button[aria-label="Send a gift"]{
 }
 
 /*Fix ava area*/
-.panels-j1Uci_ {
+.container-3baos1{
     height: 70px;
-}
-
-.container-3baos1, .container-3baos1 .avatar-SmRMf2{
-    padding-top:7px;
 }
