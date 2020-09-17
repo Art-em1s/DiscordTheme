@@ -1,3 +1,5 @@
+//META{"name":"Planus", "description":"Ultraflat's Remake", "author":"Artemis", "version":"0.0.0"}*//
+
 :root {
   --version:"Planus v1.0.0";
   --background-secondary: #2B2E39;
@@ -338,4 +340,25 @@ button[aria-label="Send a gift"]{
 /*Fix ava area*/
 .container-3baos1{
     height: 70px;
+}
+
+.form-2fGMdU{
+    padding: unset;
+}
+
+.textArea-12jD-V{
+    min-height: 71px;
+}
+
+.scrollableContainer-2NUZem{
+    border-radius: unset;
+}
+
+.da-attachWrapper,.webkit-HjD9Er .buttons-3JBrkn{
+    padding-top:14px
+}
+
+.fontSize16Padding-3Wk7zP {
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
